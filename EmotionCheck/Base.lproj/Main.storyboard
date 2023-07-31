@@ -11,7 +11,7 @@
         <!--통계보기-->
         <scene sceneID="MLu-VJ-GUL">
             <objects>
-                <viewController id="fEh-OX-fUS" sceneMemberID="viewController">
+                <viewController id="fEh-OX-fUS" customClass="EmotionNumberViewController" customModule="EmotionCheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U7O-O9-fxh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,6 +88,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="통계보기" image="chart.bar" catalog="system" id="JB8-yK-IEu"/>
+                    <connections>
+                        <outlet property="resultLabelBad" destination="wii-9a-0iz" id="XGW-mP-aBo"/>
+                        <outlet property="resultLabelHappy" destination="qhi-6N-2Tx" id="gPM-dM-2Vm"/>
+                        <outlet property="resultLabelNotBad" destination="Lpc-p6-VB8" id="8Ta-4q-wle"/>
+                        <outlet property="resultLabelVeryBad" destination="s68-TB-OMr" id="GQD-Rf-XCS"/>
+                        <outlet property="resultLabelVeryHappy" destination="LeJ-oF-twB" id="Dyr-bQ-raA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HsD-kw-Lhb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,7 +117,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="emoji1"/>
                                 <connections>
-                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nAB-B9-wLA"/>
+                                    <action selector="emotionButtonClicked1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nAB-B9-wLA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yow-kE-p2C">
@@ -122,7 +129,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="emoji2"/>
                                 <connections>
-                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uta-OO-skU"/>
+                                    <action selector="emotionButtonClicked2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uV9-Xb-7V1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twy-0H-JtN">
@@ -134,7 +141,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="emoji3"/>
                                 <connections>
-                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uns-1i-Nig"/>
+                                    <action selector="emotionButtonClicked3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJF-iP-Vr5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YG2-TI-Lvo">
@@ -146,7 +153,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="emoji4"/>
                                 <connections>
-                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXW-dc-bfj"/>
+                                    <action selector="emotionButtonClicked4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JQe-lA-3Cy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oir-LQ-VqH">
@@ -158,7 +165,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="emoji5"/>
                                 <connections>
-                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gll-oW-Qbu"/>
+                                    <action selector="emotionButtonClicked5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h7z-FH-TgS"/>
                                 </connections>
                             </button>
                         </subviews>

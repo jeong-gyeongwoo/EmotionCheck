@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40AB5D12A76665400489DAE /* EmotionNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AB5D02A76665400489DAE /* EmotionNumberViewController.swift */; };
 		F40B83E22A74052300AB4B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B83E12A74052300AB4B04 /* AppDelegate.swift */; };
 		F40B83E42A74052300AB4B04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B83E32A74052300AB4B04 /* SceneDelegate.swift */; };
 		F40B83E62A74052300AB4B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B83E52A74052300AB4B04 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40AB5D02A76665400489DAE /* EmotionNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionNumberViewController.swift; sourceTree = "<group>"; };
 		F40B83DE2A74052300AB4B04 /* EmotionCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40B83E12A74052300AB4B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F40B83E32A74052300AB4B04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				F40B83E32A74052300AB4B04 /* SceneDelegate.swift */,
 				F40B83E52A74052300AB4B04 /* ViewController.swift */,
 				F40B83E72A74052300AB4B04 /* Main.storyboard */,
+				F40AB5D02A76665400489DAE /* EmotionNumberViewController.swift */,
 				F40B83EA2A74052400AB4B04 /* Assets.xcassets */,
 				F40B83EC2A74052400AB4B04 /* LaunchScreen.storyboard */,
 				F40B83EF2A74052400AB4B04 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40B83E62A74052300AB4B04 /* ViewController.swift in Sources */,
+				F40AB5D12A76665400489DAE /* EmotionNumberViewController.swift in Sources */,
 				F40B83E22A74052300AB4B04 /* AppDelegate.swift in Sources */,
 				F40B83E42A74052300AB4B04 /* SceneDelegate.swift in Sources */,
 			);
